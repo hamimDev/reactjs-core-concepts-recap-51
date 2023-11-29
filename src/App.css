@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.flex{
+  /* display: grid;
+  grid-template-columns: repeat(3,1fr); */
+}
+
+.district{
+  background-color: chartreuse;
+  padding: 20px;
+  margin: 10px;
+  border: 5px solid goldenrod;
+  border-radius: 15px;
+}
+.district button{
+  background-color: darkgreen;
+  padding: 10px;
+  border: 5px solid gold;
+  border-radius: 15px;
+}
+
+.App2{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.item {
+  /* Styling for grid items */
+  border: 3px solid red;
+  padding: 10px;
+  text-align: center;
+  background-color: brown;
+  border-radius: 15px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  grid-gap: 20px; /* Gap between grid items */
+  padding: 20px;
+  margin: 10px;
+}
